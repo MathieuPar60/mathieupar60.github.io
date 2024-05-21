@@ -137,10 +137,6 @@ section p, section li{
     padding: 30px;
 }
 
-.grid-column:nth-child(2) {
-    grid-template-columns: repeat(3, 1fr);
-}
-
 .grid-column img {
     width: 55%;
     height: auto;
@@ -148,10 +144,6 @@ section p, section li{
     border-radius: 75px;
     transition: transform 1s ease;
     background-color: white;
-}
-
-.grid-column:nth-child(2) img {
-    width: 45%;
 }
 
 .grid-column img:hover {
