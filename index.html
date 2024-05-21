@@ -40,7 +40,17 @@
         <section id="projects">
             <div class="container">
                 <h2>Projets</h2>
-                <p>Currently coding the world....</p>
+                <p><b>Star Who? </b>: Jeu questionnaire afin de deviner un personnage de l'univers Star Wars selon différents modes de jeu.</p>
+                <ul class="elem-container">
+                    <li>Technologies : MongoDB, Express, React et Node.js (MERN Stack)</li>
+                </ul>
+                <div class="project">
+                    <div class="picture-container">
+                        <button class="arrow left" onclick="prevImage()">&#10094;</button>
+                        <img id="carousel-image" src="assets/home.PNG" alt="Project Image">
+                        <button class="arrow right" onclick="nextImage()">&#10095;</button>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="skills">
@@ -70,5 +80,6 @@
                 <li><i class="fa-brands fa-linkedin"></i>À venir</li>
                 </div>    
         </section>
+        <script src="index.js"></script>
     </body>
 </html>
